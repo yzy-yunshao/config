@@ -2,8 +2,8 @@ spring:
   application:
     name: item-service
     
-#server:
-#  port: 8001
+server:
+  port: 8001
   
 eureka:
   client:
@@ -12,14 +12,3 @@ eureka:
 cloud:
     config:
       override-none: true
----
-spring:
-  profiles: item1
-  
-server:
-  port: 8001      
----
-spring:
-  profiles: item2
-server:
-  port: 8002  
