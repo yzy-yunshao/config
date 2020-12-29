@@ -3,7 +3,7 @@ spring:
     name: order-service
     
 rabbitmq:
-    host: 192.168.64.140
+    host: 192.168.153.141
     port: 5672
     username: admin
     
